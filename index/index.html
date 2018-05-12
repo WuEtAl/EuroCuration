@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Victims :: Alex Wu's Curation</title>
+    <link rel="stylesheet" type="text/css" href="../markdown.css"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="icon" href="../src/icon.png"/>
+    <!--<script src="index.js" defer></script>-->
+    <script src="../jquery-3.3.1.js"></script>
+    <script src="../remarkable.js"></script>
+</head>
+<!--<body onscroll="shooting()">-->
+<body>
+<div id="titleFrame">
+    <img src="../src/Neue%20Wache%20innen%20Berlin.jpg"
+         alt="Tomb of the Unknown Soldier in Neue Wache"
+         id="titleImage"/>
+    <h1 id="title" class="heading">Victims;</h1>
+    <h2 id="subheading" class="heading">A story unfinished.</h2>
+    <h2 id="author" class="heading">Alex Wu</h2>
+    <p class="desc" id="NeueWache"><span class="descSpec">Fig. 1</span><br>Photo of the Tomb of the Unknown Soldier in Neue Wache. Built in 1931. Picture taken in 2011.</p>
+</div>
+<!--<div id="shooting">-->
+    <!--<div id="shootingFrame"><img src="src/title.png" id="shootingImage"/></div>-->
+    <!--<div class="quote">-->
+        <!--<h2>“There are more things…likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.”</h2>-->
+        <!--<p>Seneca, <span>Letters From a Stoic</span></p>-->
+    <!--</div>-->
+<!--</div>-->
+<p id="preamble" class="markdown">
+</p>
+</body>
+<script>
+    var md = new Remarkable({html: true});
+    var docSet=document.getElementsByClassName("markdown");
+    for(var i=0;i<docSet.length;i++){
+        var temp=docSet[i];
+        // jQuery.extend{
+        //     getMarkdown: function(id){
+        //         var content=null;
+        //         $.ajax({url: "./md/"+id+".md",
+        //             async: false,
+        //             dataType:"text/plain",
+        //             success: function(file_content){
+        //                 content=file_content;
+        //             }
+        //         });
+        //         return content;
+        //     }
+        // }
+        // var tempCont=$.getMarkdown(temp.id);
+        $.get("../md/"+temp.id+".md",function(data){
+            temp.innerHTML=md.render(data);
+        });
+    }
+</script>
+</html>

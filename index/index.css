@@ -1,0 +1,126 @@
+
+
+/*CUSTOM!!*/
+
+html {
+    min-width: 915px;
+    width: 100vw !important;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.desc {
+    font-family: "SF Compact Display", sans-serif;
+    /*font-weight: bold;*/
+    color: grey;
+    font-size: 10pt;
+}
+.descSpec{
+    font-style: italic;
+    font-family: "Times New Roman", serif;
+}
+/*Heading Css Settings*/
+.heading{
+    font-family: Clarendon, serif;
+}
+#titleFrame {
+    width:100%;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+#titleImage {
+    width: 100%;
+    position: absolute;
+    top:0;
+    z-index: 0;
+}
+#title {
+    position: absolute;
+    z-index: 3;
+    top: 60vh;
+    font-size: 22vh;
+    color: white;
+}
+#author {
+    position: absolute;
+    z-index: 2;
+    font-family: "Zilla Slab", serif;
+    font-size: 8vh;
+    color: #afafaf;
+    left: 0;
+    top: 52vh;
+}
+#subheading{
+    position: absolute;
+    z-index:2;
+    font-size: 10vh;
+    top: 83vh;
+    right: 0;
+}
+#NeueWache{
+    position: absolute;
+    top:100vh;
+    right: 2px;
+    z-index: 100;
+    color: black;
+    width: 30%;
+}
+/**/
+/*Shooter Animation*/
+#shooting{
+    display: flex;
+    flex-direction: row;
+}
+#shootingFrame{
+    overflow: hidden;
+    position: relative;
+    top:0;
+    min-width: 640px;
+    min-height: 318px;
+}
+#shootingImage{
+    position: absolute;
+}
+.quote{
+    padding: 10px;
+}
+.quote h2{
+    font-size: 25pt;
+    font-weight: lighter;
+    font-family: Gotham,sans-serif;
+    margin: 10px;
+}
+.quote p{
+    font-family: Sentinel, serif;
+    font-size: 15pt;
+    text-align: right;
+}
+.quote p span{
+    font-style: italic;
+}
+
+hr {
+    height: 4px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+    border-bottom: 1px solid #ddd;
+    width:100%;
+}
+
+.markdown{
+    width: 90%;
+    margin: auto;
+}
+
+.illustration{
+    float: right;
+    width: 60%;
+}
