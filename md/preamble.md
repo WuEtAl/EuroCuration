@@ -1,5 +1,3 @@
-# Curation :: Preamble
-
 My great-grandfather, a general and a World War II hero, was imprisoned, disenfranchised, and killed simply because he was of the wrong political party; my grandfather never had the chance to go to college because his social origin was “impure” and not proletarian; my grandmother, a middle-schooler, was almost killed in a massacre between the workers and the “subversives” during the Cultural Revolution; my parents were part of the protests that ended in the Tiananmen Square Massacre. It would be no wonder that I wish to learn the stories of the victims, victims of civil unrest, of genocides, of war, and of power.
 
 ---
@@ -8,9 +6,11 @@ My great-grandfather, a general and a World War II hero, was imprisoned, disenfr
 >
 > <p style="text-align: right">David Brooks, <em>The Retreat to Tribalism</em></p>
 
-These victims often suffered immensely. People often assume plentiful innocence and virtue in the victims as a result of their sufferings. As with many overgeneralizations about diverse groups, this assumption only hides the truth about victims. The complexity of the real world often deviates from the ideal extremes, and many became victims because of their own wrongful actions or desires.
+These victims often suffered immensely. People often assume plentiful innocence and virtue in the victims as a result of their sufferings. As with many overgeneralizations about diverse groups, this assumption only hides the truth about victims. The complexity of the real world often deviates from the ideal extremes, and many became victims because of their own wrongful actions or desires. They, sometimes, can even cause others to suffer and become their fellow victims.
 
-A notable example of this was the Dutch Tulip Mania. In his *Flora's Malle-wagen* (circa 1640), Hendrik Pot demonstrated the speculative nature of the tulip trade and suggested that the reason for the investors' sufferings were because of their own greed and immorality. His painting shows the flower goddess Flora riding a carnival cart with her followers. He commentated on the mania through his careful choice of subjects. Among her followers were three men wearing fool's caps and two mistresses. Pot sought to use these different followers to redicule and characterize the mania. These characters are Lie-all, who tells lies signifying deceit, Tospot, who drinks incessantly representing gluteny, Wealthcliffe and Mistress Take-it-in, weighing gold and symbolizing greed, and Mistress Vain Hope, whoes Bird of Hope had just escaped her. Right behind them on the road followed weavers from Haarlem with their equipment for production trampled under their feet. Through these subjects Pot sought to show that the mania was detrimental to society's moral and economic wellbeing.
+A notable example of this was the Dutch Tulip Mania, during which people speculated on the ever-rising demand for tulip bulbs and heavily invested in it. When the tulip bubble popped, many lost their life savings and endangered Dutch economy.
+
+In his *Flora's Malle-wagen* (circa 1640), Hendrik Pot demonstrated the speculative nature of the tulip trade and suggested that the reason for the investors' sufferings were because of their own greed and immorality. His painting shows the flower goddess Flora riding a carnival cart with her followers. He commentated on the mania through his careful choice of subjects. Among her followers were three men wearing fool's caps and two mistresses. Pot sought to use these different followers to redicule and characterize the mania. These characters are Lie-all, who tells lies signifying deceit, Tospot, who drinks incessantly representing gluteny, Wealthcliffe and Mistress Take-it-in, weighing gold and symbolizing greed, and Mistress Vain Hope, whoes Bird of Hope had just escaped her. Right behind them on the road followed weavers from Haarlem with their equipment for production trampled under their feet. Through these subjects Pot sought to show that the mania was detrimental to society's moral and economic wellbeing.
 
 Pot placed the subjects associated with flowers and indecent desires in the middle of the frame, obstucting the landscape, fracturing it into two uneven parts. On the left is the St. Bavo's Cathedral in Haarlem while on the right the sea is wailing. Howling wind inflates the sail to its fullest, heading towards the sea as did the cart in the distance. The careful placement of the landscape and the landscape suggests a departure from the morals and from God in pursuit of false idols and satisfaction of sins. God punishes these sinners who strayed from virtue by aiding them to their eventual demise in the sea with strong wind. 
 
@@ -18,11 +18,11 @@ Pot criticized the blind speculation of the Tulip Mania through his painting, an
 
 ![Flora's Malle-wagen, Pot, 1640](https://wuetal.github.io/EuroCuration/src/Flora's%20Malle-wagen,%20Hendrik%20Pot,%201640.jpg){#MalleWagen .illustration}
 
-<span style="float: right; font-family: 'Times New Roman';">Image 1. *Flora's Malle-Wagen, painting by Hendrik Pot, circa 1640*</span>
+<span style="position: relative; right: 70%; font-family: 'Times New Roman';">Image 1. *Flora's Malle-Wagen, painting by Hendrik Pot, circa 1640*</span>
 
 ---
 
-Some victims, however, perfectly fit into the assumption of innocence and virtue. Some fought for the lives of others, while some were victimized because they stood up for their own ideals and believes. They did not mind sacrificing their wealth, their reputation, or even their lives. They fought for what was right, and did what needed to be done. Among these 
+Some victims, however, perfectly fit into the assumption of innocence and virtue. Some fought for the lives of others, while some were victimized because they stood up for their own ideals and believes. They did not mind sacrificing their wealth, their reputation, or even their lives. They fought for what was right, and did what needed to be done. In Livius' account of an ancient Roman battle, Horatius and his two followers exemplified the heroic deeds of many who sought to fight for what they hold dear.
 
 
 

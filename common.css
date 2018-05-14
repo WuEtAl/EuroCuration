@@ -1,0 +1,30 @@
+.markdown{
+    width: 90%;
+    margin: auto;
+}
+
+.illustration{
+    float: right;
+    width: 60%;
+}
+
+#directions{
+    font-family: 'SF Pro Text';
+    font-size: 30pt;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#directions a{
+    text-decoration: none;
+    color: hotpink;
+}
+#directions a:hover{
+    color: white;
+    text-decoration: hotpink underline;
+}
