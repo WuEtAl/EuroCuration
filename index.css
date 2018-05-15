@@ -115,35 +115,6 @@ hr {
     width:100%;
 }
 
-
-
-#sections{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-evenly;
-    position: absolute;
-    top: 0;
-}
-#sections p{
-    font-family: Futura;
-    font-size: 25pt;
-    padding: 10px;
-    margin: 10px;
-    border: darkgray 5px;
-}
-
-#sections p a{
-    font-style: normal;
-    color: pink;
-    text-decoration: none;
-}
-
-#sections p a:hover{
-    text-decoration: underline pink;
-    color: white;
-}
-
 body{
     overflow:hidden;
 }

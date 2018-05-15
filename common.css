@@ -9,22 +9,73 @@
 }
 
 #directions{
-    font-family: 'SF Pro Text';
-    font-size: 30pt;
+    font-family: Futura;
+    font-size: 20pt;
     position: absolute;
-    top: 20px;
-    left: 30px;
+    top: 50px;
     z-index: 1000;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     width: 100%;
 }
+
+#back{
+    position: absolute;
+    left: 10px;
+}
+#next{
+    position:absolute;
+    right: 10px;
+}
+
 #directions a{
-    text-decoration: none;
-    color: hotpink;
+    text-decoration: underline lightpink;
+    color: white;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
 }
 #directions a:hover{
+    color: pink;
+    text-decoration: overline pink;
+}
+
+.markdown img{
+    width: 100%;
+    max-width: none;
+    left: 0;
+}
+
+#sections{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+}
+#sections p{
+    font-family: Futura;
+    font-size: 20pt;
+    padding: 10px;
+    margin: 10px;
+}
+
+#sections p a{
+    font-style: normal;
     color: white;
-    text-decoration: hotpink underline;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    text-decoration: underline lightpink;
+}
+
+#sections p a:hover{
+    text-decoration: pink overline;
+    color: pink;
 }

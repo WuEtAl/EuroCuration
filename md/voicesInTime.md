@@ -130,3 +130,19 @@ Chapter 9, Works of Josephus, a description of the Masada Suicides
 > Honour the Light Brigade,
 >
 >    Noble six hundred!
+
+
+
+> On the appearance of the enemy the country people fled into the City as best they could. The weak places in the defenses were occupied by military posts; elsewhere the walls and the Tiber were deemed sufficient protection. The enemy would have forced their way over the Sublician bridge had it not been for one man, Horatius Cocles. The good fortune of Rome provided him as her bulwark on that memorable day.
+>
+> He happened to be on guard at the bridge when he saw the Janiculum taken by a sudden assault and the enemy rushing down from it to the river, whilst his own men, a panic-struck mob, were deserting their posts and throwing away their arms. He reproached them one after another for their cowardice, tried to stop them, appealed to them in heaven's name to stand, declared that it was in vain for them to seek safety in flight whilst leaving the bridge open behind them, there would very soon be more of the enemy on the Palatine and the Capitol than there were on the Janiculum.
+>
+> So he shouted to them to break down the bridge by sword or fire, or by whatever means they could, he would meet the enemies' attack so far as one man could keep them at bay. He advanced to the head of the bridge. Amongst the fugitives, whose backs alone were visible to the enemy, he was conspicuous as he fronted them armed for fight at close quarters. The enemy were astounded at his preternatural courage. Two men were kept by a sense of shame from deserting him, Spurius Lartius and Titus Herminius, both of them men of high birth and renowned courage.
+>
+> With them he sustained the first tempestuous shock and wild confused onset, for a brief interval. Then, whilst only a small portion of the bridge remained and those who were cutting it down called upon them to retire, he insisted upon these, too, retreating. Looking round with eyes dark with menace upon the Etruscan chiefs, he challenged them to single combat, and reproached them all with being the slaves of tyrant kings, and whilst unmindful of their own liberty coming to attack that of others.
+>
+> For some time they hesitated, each looking round upon the others to begin. At length shame roused them to action, and raising a shout they hurled their javelins from all sides on their solitary foe. He caught them on his outstretched shield, and with unshaken resolution kept his place on the bridge with firmly planted foot. They were just attempting to dislodge him by a charge when the crash of the broken bridge and the shout which the Romans raised at seeing the work completed stayed the attack by filling them with sudden panic.
+>
+> Then Cocles said, "Tiberinus, holy father, I pray thee to receive into thy propitious stream these arms and this thy warrior." So, fully armed, he leaped into the Tiber, and though many missiles fell over him he swam across in safety to his friends: an act of daring more famous than credible with posterity.
+>
+> The State showed its gratitude for such courage; his statue was set up in the Comitium, and as much land given to him as he could drive the plough round in one day. Besides this public honor, the citizens individually showed their feeling; for, in spite of the great scarcity, each, in proportion to his means, sacrificed what he could from his own store as a gift to Cocles.
