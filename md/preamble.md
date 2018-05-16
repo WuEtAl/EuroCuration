@@ -18,14 +18,6 @@ Pot criticized the blind speculation of the Tulip Mania through his painting, an
 
 ---
 
-> To every man upon this earth
->
-> Death cometh soon or late.
->
-> And how can man die better
->
-> Than facing fearful odds
->
 > For the ashes of his fathers
 >
 > And the temples of his gods.
@@ -41,5 +33,8 @@ Some victims, however, perfectly fit into the assumption of innocence and virtue
 The worst kind of victims, as I came to understand, were the kind that suffered for nothing. They had no voluntary will in their downfall, and their personal virtue had nothing to do with their status as innocent people. They might be unfortunate casualty of natural disasters and manmade accidents, the unwitting collateral damage of a greater historical trend, or targets of mass panic and intentional extermination. *Maus*, a comic book by Art Spiegelman, presented the story of a survivor of the Holocaust, one of the most significant genocide in human history. He chose to present Jews as mouse and Nazis as cats to highlight the intense fear experienced by the Jewish people, like a prey's natural dread of its predator. In his book, he portrayed his father, the survivor, as a more human character. Though he survived the Holocaust, he was in  no way a perfect person. Like anyone, he had a life, a family, and bribed and stole to keep himself and his family alive. He was a miser and a shrewd survivor trapped by circumstance. His wrongdoings, in no way, justified the cruel, inhumane treatment he received during his years in Auschwitz.
 
 ---
+
+> History is written by the victors.
+> <p style="text-align: right">Winston Churchill</p>
 
 In his book _Anna Karenina_, Leo Tolstoy wrote these immortal lines: "Happy families are all alike; every unhappy family is unhappy in its own way." A similar spirit should be applied to victims as well: bystanders are all alike, every victim is created in his or her own way. In my search for stories of victims, I was truly astonished by humanity's ingenuity for persecution and willingness for sacrifice as well as the resulted vast diversity of victims. Plenty of sideroads–sometimes I think too many–leads to victimization. As victims, nevertheless, they could not depend on history's fair depiction of their stories. They are, at any rate, victims and not the famed authors of history. Their stories are rarely preserved intact, often forgotten or distorted. Victors often recorded history with biases of their times, or depicted stories with a goal in mind as part of an argument. Even with more objective means of depiction, i.e. photography and film, the photographer still express authorial intent in the composition and the timing of the shots. Consequently, we, as the audience, should always beware of the biases the depictors–and us-might have used to interpret and present history.

@@ -17,12 +17,15 @@ for(var i=0;i<pSetWithImg.length;i++){
     };
 }
 
+//Image Set Display
 
-// var md = new Remarkable({html: true});
-// var docSet=document.getElementsByClassName("markdown");
-// for(var i=0;i<docSet.length;i++){
-//     var temp=docSet[i];
-//     $.get("./md/"+temp.id+".md",function(data){
-//         temp.innerHTML=md.render(data);
-//     });
-// }
+//Insert Initial Image
+var currentImg={};
+var allImgSet=document.getElementsByClassName("imageSet");
+for(var i=0;i<allImgSet.length;i++){
+    var tempDiv=allImgSet[i];
+    var folder=tempDiv.dataset.folder;
+    var tempImg=document.getElementById(folder);
+    tempImg.src="/src/"+folder+"/"+1+".jpg";
+    currentImg.folder=1;
+}

@@ -1,54 +1,60 @@
-.markdown{
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.markdown {
     width: 90%;
     margin: auto;
 }
 
-.illustration{
+.illustration {
     float: right;
     width: 60%;
 }
 
-#directions{
+#directions {
     font-family: Futura;
     font-size: 20pt;
     position: absolute;
     top: 50px;
     z-index: 1000;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    justify-content: space-between;
 }
 
-#back{
-    position: absolute;
-    left: 10px;
-}
-#next{
-    position:absolute;
-    right: 10px;
+#directions p {
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
-#directions a{
+#directions a {
     text-decoration: underline lightpink;
     color: white;
-    text-shadow:
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
-#directions a:hover{
+
+#directions a:hover {
     color: pink;
     text-decoration: overline pink;
 }
 
-.markdown img{
+.markdown img {
     width: 100%;
     max-width: none;
     left: 0;
 }
 
-#sections{
+#sections {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -57,25 +63,29 @@
     top: 0;
     z-index: 1000;
 }
-#sections p{
+
+#sections p {
     font-family: Futura;
     font-size: 20pt;
     padding: 10px;
     margin: 10px;
+    z-index: 1000;
 }
 
-#sections p a{
+#sections p a {
     font-style: normal;
     color: white;
-    text-shadow:
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
     text-decoration: underline lightpink;
 }
 
-#sections p a:hover{
+#sections p a:hover {
     text-decoration: pink overline;
     color: pink;
+}
+#titleImage{
+    pointer-events: none;
 }

@@ -3,40 +3,237 @@
 <head>
     <meta charset="UTF-8">
     <title>Alex Wu :: Voices In Time</title>
-    <style>
-        #conversations{
-            display: flex;
-            flex-direction: row;
-        }
-        #poem{
-            display: flex;
-            flex-direction: row;
-            border: black 1px
-        }
-    </style>
+    <!--Global-->
+    <link rel="stylesheet" type="text/css" href="../markdown.css"/>
+    <link rel="icon" href="../src/icon.png"/>
+    <script src="../showdown.js"></script>
+    <script src="../common.js" defer></script>
+    <script src="../jquery-3.3.1.js"></script>
+    <script src="../remarkable.js"></script>
+    <link rel="stylesheet" href="../common.css">
+    <!--Local-->
+    <link rel="stylesheet" href="voicesInTime.css">
+
 </head>
 <body>
-<h1>Conversations</h1>
+<div id="sections">
+    <!--<a href="../index.html"><img src="../src/icon.png"/></a>-->
+    <p><a href="../preamble/preamble.html">§Preamble:</a></p>
+    <p><a href="../amongTheContributors/amongTheContributors.html">Among the Contributors;</a></p>
+    <p><a href="../voicesInTime/voicesInTime.html">Voices In Time;</a></p>
+    <p><a href="../miscellany/miscellany.html">Miscellany.</a></p>
+    <p><a href="../furtherRemarks/furtherRemarks.html">Further Remarks␄</a></p>
+</div>
+<div id="directions">
+    <p><a href="../index.html" id="back">↑Back?</a></p>
+    <p><a href="#conversations">Conversations</a></p>
+    <p><a href="../voicesInTime/voicesInTime.html" id="next">→Or Next:</a></p>
+</div>
 <div id="titleFrame">
-    <div id="conversations">
+    <div id="titleContainer">
+        <img id="titleImage" src="../src/Nazi Book Burning, 1933.jpg"/>
+        <h1 id="title">Voices in Time</h1>
+    </div>
+</div>
+<div id="contentContainer">
+    <h1 class="title">The Wrongdoers</h1>
+    <hr>
+    <!--Assassination of Caesar-->
+    <div class="text">
+        <p>"Many Cruel Past Deeds"
+            His many cruel past deeds and abuse of power were not forgotten. For good reason, they led to his death. He was called Father of His Country and became Dictator for Life, meaning he had control over life and death. He also became Censor for Life, which gave him the power to count and tax the people under his control. He was the emperor and had his statue placed among the kings. He had a golden chair in the senate-house, the holy chariot, temples, altars, and statues among the gods. A group of priests prayed for him, like those of Pan, the great god of Nature. He even had the month of July named in his honor. Using his power as dictator, he held no meetings with the people. During the last two years he controlled the choosing of judges, who were allowed to serve for many years. Not following the laws that had been in place, he chose leaders that were not elected by the people. They were in control when he was not in Rome. Many of these had been his praetors or personal bodyguards. He admitted into the senate some men from Gaul, who were semi-barbarians, that he had defeated in the Gallic Wars. The control of the mint, for making money and collecting taxes, he gave to freed slaves from his own household. He left three legions of troops in Alexandria, Egypt, to be commanded by the son of his freed slave Rufinus.</p>
+        <p class="caption"><span class="label"></span>C. Suetonius Tranquillus' account of reasons for Caesar's assassination.</p>
+    </div>
+    <!--Odyssey-->
+    <div class="text">
+        <p>“So he spoke, and in our breasts our spirit was broken for terror of his deep voice and monstrous self; yet even so I made answer and spoke to him, saying: `We, thou must know, are from Troy, Achaeans, driven wandering by all manner of winds over the great gulf of the sea. Seeking our home, we have come by another way, by other paths; so, I ween, Zeus was pleased to devise. And we declare that we are the men of Agamemnon, son of Atreus, whose fame is now mightiest under heaven, so great a city did he sack, and slew many people; but we on our part, thus visiting thee, have come as suppliants to thy knees, in the hope that thou wilt give us entertainment, or in other wise make some present, as is the due of strangers. Nay, mightiest one, reverence the gods; we are thy suppliants; and Zeus is the avenger of suppliants and strangers—Zeus, the strangers' god—who ever attends upon reverend strangers.'</p>
+        <p>“So I spoke, and he straightway made answer with pitiless heart: `A fool art thou, stranger, or art come from afar, seeing that thou biddest me either to fear or to shun the gods. For the Cyclopes reck not of Zeus, who bears the aegis, nor of the blessed gods, since verily we are better far than they. Nor would I, to shun the wrath of Zeus, spare either thee or thy comrades, unless my own heart should bid me. But tell me where thou didst moor thy well-wrought ship on thy coming. Was it haply at a remote part of the land, or close by? I fain would know.’</p>
+        <p>“So he spoke, tempting me, but he trapped me not because of my great cunning; and I made answer again in crafty words: `My ship Poseidon, the earth-shaker, dashed to pieces, casting her upon the rocks at the border of your land; for he brought her close to the headland, and the wind drove her in from the sea. But I, with these men here, escaped utter destruction.’</p>
+        <p>“So I spoke, but from his pitiless heart he made no answer, but sprang up and put forth his hands upon my comrades. Two of them at once he seized and dashed to the earth like puppies, and the brain flowed forth upon the ground and wetted the earth. Then he cut them limb from limb and made ready his supper, and ate them as a mountain-nurtured lion, leaving naught—ate the entrails, and the flesh, and the marrowy bones. And we with wailing held up our hands to Zeus, beholding his cruel deeds; and helplessness possessed our souls. But when the Cyclops had filled his huge maw by eating human flesh and thereafter drinking pure milk, he lay down within the cave, stretched out among the sheep. And I formed a plan in my great heart to steal near him, and draw my sharp sword from beside my thigh and smite him in the breast, where the midriff holds the liver, feeling for the place with my hand. But a second thought checked me, for right there should we, too, have perished in utter ruin. For we should not have been able to thrust back with our hands from the high door the mighty stone which he had set there. So then, with wailing, we waited for the bright Dawn.</p>
+        <p class="caption"><span class="label"></span>Dangers during Odysseus' return from Troy, where he massacred the dwellers, <em>The Odyssey, Book 9</em>.</p>
+    </div>
+    <!--Tulip Mania-->
+    <div class="image">
+        <img src="../src/Flora's Malle-wagen, Hendrik Pot, 1640.jpg"/>
+        <p class="caption"><span class="label"></span><em>Flora's Malle-wagen</em>, painting by Hendrik Pot, 1640, depicting the Tulip Mania</p>
+    </div>
+    <!--Assassination of Archduke Ferdinand-->
+    <div class="image">
+        <img src="../src/Assassination of Franz Ferdinand.jpg"/>
+        <p class="caption"><span class="label"></span>Archduke Franz Ferdinand of Austria-Hungary, heir to the throne, assassinated. 1914.</p>
+    </div>
+    <h1 class="title">The Heros</h1>
+    <hr>
+    <!--D Day-->
+    <div class="image">
+        <img src="../src/Normandy Invasion, US Coast Guard.gif"/>
+        <p class="caption"><span class="label"></span><em>Normandy Invasion</em>, photograph by US Coast Guard, 1944</p>
+    </div>
+    <!--Horatius at the Bridge-->
+    <div class="text" style="column-count: 3">
+        <p>Then out spake brave Horatius,<br>
+            The Captain of the gate:<br>
+            “To every man upon this earth<br>
+            Death cometh soon or late.<br>
+            And how can man die better<br>
+            Than facing fearful odds<br>
+            For the ashes of his fathers<br>
+            And the temples of his gods,<br>
+            <br>
+            “And for the tender mother<br>
+            Who dandled him to rest,<br>
+            And for the wife who nurses<br>
+            His baby at her breast,<br>
+            And for the holy maidens<br>
+            Who feed the eternal flame,—<br>
+            To save them from false Sextus<br>
+            That wrought the deed of shame?<br>
+            <br>
+            “Hew down the bridge, Sir Consul,<br>
+            With all the speed ye may;<br>
+            I, with two more to help me,<br>
+            Will hold the foe in play.<br>
+            In yon strait path a thousand<br>
+            May well be stopped by three:<br>
+            Now who will stand on either hand,<br>
+            And keep the bridge with me?”<br>
+            <br>
+            Then out spake Spurius Lartius,—<br>
+            A Ramnian proud was he:<br>
+            “Lo, I will stand at thy right hand,<br>
+            And keep the bridge with thee.”<br>
+            And out spake strong Herminius,—<br>
+            Of Titian blood was he:<br>
+            “I will abide on thy left side,<br>
+            And keep the bridge with thee.”<br>
+            <br>
+            “Horatius,” quoth the Consul,<br>
+            “As thou sayest so let it be,”<br>
+            And straight against that great array<br>
+            Went forth the dauntless three.<br>
+            For Romans in Rome’s quarrel<br>
+            Spared neither land nor gold,<br>
+            Nor son nor wife, nor limb nor life,<br>
+            In the brave days of old.<br>
+            <br>
+            Then none was for a party—<br>
+            Then all were for the state;<br>
+            Then the great man helped the poor,<br>
+            And the poor man loved the great;<br>
+            Then lands were fairly portioned!<br>
+            Then spoils were fairly sold:<br>
+            The Romans were like brothers<br>
+            In the brave days of old.<br>
+            <br>
+            Now Roman is to Roman<br>
+            More hateful than a foe,<br>
+            And the tribunes beard the high,<br>
+            And the fathers grind the low.<br>
+            As we wax hot in faction,<br>
+            In battle we wax cold;<br>
+            Wherefore men fight not as they fought<br>
+            In the brave days of old.<br>
+            <br>
+            Now while the three were tightening<br>
+            Their harness on their backs,<br>
+            The Consul was the foremost man<br>
+            To take in hand an axe;<br>
+            And fathers, mixed with commons,<br>
+            Seized hatchet, bar, and crow,<br>
+            And smote upon the planks above,<br>
+            And loosed the props below.<br>
+            <br>
+            Meanwhile the Tuscan army,<br>
+            Right glorious to behold,<br>
+            Came flashing back the noonday light,<br>
+            Rank behind rank, like surges bright<br>
+            Of a broad sea of gold.<br>
+            Four hundred trumpets sounded<br>
+            A peal of warlike glee,<br>
+            As that great host with measured tread,<br>
+            And spears advanced, and ensigns spread,<br>
+            Rolled slowly toward the bridge’s head,<br>
+            Where stood the dauntless three.<br>
+            <br>
+            The three stood calm and silent,<br>
+            And looked upon the foes,<br>
+            And a great shout of laughter<br>
+            From all the vanguard rose;<br>
+            And forth three chiefs came spurring<br>
+            Before that deep array;<br>
+            To earth they sprang, their swords they drew,<br>
+            And lifted high their shields, and flew<br>
+            To win the narrow way.<br>
+            <br>
+            Aunus, from green Tifernum,<br>
+            Lord of the Hill of Vines;<br>
+            And Seius, whose eight hundred slaves<br>
+            Sicken in Ilva’s mines;<br>
+            And Picus, long to Clusium<br>
+            Vassal in peace and war,<br>
+            Who led to fight his Umbrian powers<br>
+            From that gray crag where, girt with towers,<br>
+            The fortress of Nequinum lowers<br>
+            O’er the pale waves of Nar.
+        </p>
+        <p class="caption"><span class="label"></span>Thomas Babington, Lord Macaulay,<em>Horatius at the Bridge</em>,217-300</p>
+    </div>
+    <h1 class="title">The Innocent</h1>
+    <hr>
+    <!--Korean Air 007-->
+    <div class="image imageSet" data-folder="KAL007" data-max="7" data-caption="none">
+        <img id="KAL007" class="setImage">
+        <div class="forwardOverlay"></div>
+        <div class="backwardOverlay"></div>
+        <div class="setCaption"></div>
+    </div>
+    <!--Cleon Debate-->
+    <div class="text">
+        <p>27. In the meantime the Mitylenians, finding their provisions failing, while the fleet from Peloponnese was loitering on the way instead of appearing at Mitylene, were compelled to come to terms with the Athenians in the following manner. Salaethus having himself ceased to expect the fleet to arrive, now armed the commons with heavy armour, which they had not before possessed, with the intention of making a sortie against the Athenians. The commons, however, no sooner found themselves possessed of arms than they refused any longer to obey their officers; and forming in knots together, told the authorities to bring out in public the provisions and divide them amongst them all, or they would themselves come to terms with the Athenians and deliver up the city.</p>
+            <p>28. The government, aware of their inability to prevent this, and of the danger they would be in, if left out of the capitulation, publicly agreed with Paches and the army to surrender Mitylene at discretion and to admit the troops into the town; upon the understanding that the Mitylenians should be allowed to send an embassy to Athens to plead their cause, and that Paches should not imprison, make slaves of, or put to death any of the citizens until its return. Such were the terms of the capitulation; in spite of which the chief authors of the negotiation with Lacedaemon were so completely overcome by terror when the army entered that they went and seated themselves by the altars, from which they were raised up by Paches under promise that he would do them no wrong, and lodged by him in Tenedos, until he should learn the pleasure of the Athenians concerning them. Paches also sent some galleys and seized Antissa, and took such other military measures as he thought advisable.
+        </p>
+        <p>...</p>
+        <p>36. Upon the arrival of the prisoners with Salaethus, the Athenians at once put the latter to death, although he offered, among other things, to procure the withdrawal of the Peloponnesians from Plataea, which was still under siege; and after deliberating as to what they should do with the former, in the fury of the moment determined to put to death not only the prisoners at Athens, but the whole adult male population of Mitylene, and to make slaves of the women and children. It was remarked that Mitylene had revolted without being, like the rest, subjected to the empire; and what above all swelled the wrath of the Athenians was the fact of the Peloponnesian fleet having ventured over to Ionia to her support, a fact which was held to argue a long meditated rebellion. They accordingly sent a galley to communicate the decree to Paches, commanding him to lose no time in dispatching the Mitylenians. The morrow brought repentance with it and reflection on the horrid cruelty of a decree, which condemned a whole city to the fate merited only by the guilty. This was no sooner perceived by the Mitylenian ambassadors at Athens and their Athenian supporters, than they moved the authorities to put the question again to the vote; which they the more easily consented to do, as they themselves plainly saw that most of the citizens wished some one to give them an opportunity for reconsidering the matter. An assembly was therefore at once called, and after much expression of opinion upon both sides, Cleon, son of Cleaenetus, the same who had carried the former motion of putting the Mitylenians to death, the most violent man at Athens, and at that time by far the most powerful with the commons, came forward again and spoke as follows:</p>
+        <p>40. "No hope, therefore, that rhetoric may instil or money purchase, of the mercy due to human infirmity must be held out to the Mitylenians. Their offence was not involuntary, but of malice and deliberate; and mercy is only for unwilling offenders. I therefore, now as before, persist against your reversing your first decision, or giving way to the three failings most fatal to empire—pity, sentiment, and indulgence. Compassion is due to those who can reciprocate the feeling, not to those who will never pity us in return, but are our natural and necessary foes: the orators who charm us with sentiment may find other less important arenas for their talents, in the place of one where the city pays a heavy penalty for a momentary pleasure, themselves receiving fine acknowledgments for their fine phrases; while indulgence should be shown towards those who will be our friends in future, instead of towards men who will remain just what they were, and as much our enemies as before. To sum up shortly, I say that if you follow my advice you will do what is just towards the Mitylenians, and at the same time expedient; while by a different decision you will not oblige them so much as pass sentence upon yourselves. For if they were right in rebelling, you must be wrong in ruling. However, if, right or wrong, you determine to rule, you must carry out your principle and punish the Mitylenians as your interest requires; or else you must give up your empire and cultivate honesty without danger. Make up your minds, therefore, to give them like for like; and do not let the victims who escaped the plot be more insensible than the conspirators who hatched it; but reflect what they would have done if victorious over you, especially they were the aggressors. It is they who wrong their neighbour without a cause, that pursue their victim to the death, on account of the danger which they foresee in letting their enemy survive; since the object of a wanton wrong is more dangerous, if he escape, than an enemy who has not this to complain of. Do not, therefore, be traitors to yourselves, but recall as nearly as possible the moment of suffering and the supreme importance which you then attached to their reduction; and now pay them back in their turn, without yielding to present weakness or forgetting the peril that once hung over you. Punish them as they deserve, and teach your other allies by a striking example that the penalty of rebellion is death. Let them once understand this and you will not have so often to neglect your enemies while you are fighting with your own confederates."</p>
+        <p>49. Such were the words of Diodotus. The two opinions thus expressed were the ones that most directly contradicted each other; and the Athenians, notwithstanding their change of feeling, now proceeded to a division, in which the show of hands was almost equal, although the motion of Diodotus carried the day. Another galley was at once sent off in haste, for fear that the first might reach Lesbos in the interval, and the city be found destroyed; the first ship having about a day and a night's start. Wine and barley-cakes were provided for the vessel by the Mitylenian ambassadors, and great promises made if they arrived in time; which caused the men to use such diligence upon the voyage that they took their meals of barley-cakes kneaded with oil and wine as they rowed, and only slept by turns while the others were at the oar. Luckily they met with no contrary wind, and the first ship making no haste upon so horrid an errand, while the second pressed on in the manner described, the first arrived so little before them, that Paches had only just had time to read the decree, and to prepare to execute the sentence, when the second put into port and prevented the massacre. The danger of Mitylene had indeed been great.</p>
+        <p>50. The other party whom Paches had sent off as the prime movers in the rebellion, were upon Cleon's motion put to death by the Athenians, the number being rather more than a thousand. The Athenians also demolished the walls of the Mitylenians, and took possession of their ships. Afterwards tribute was not imposed upon the Lesbians; but all their land, except that of the Methymnians, was divided into three thousand allotments, three hundred of which were reserved as sacred for the gods, and the rest assigned by lot to Athenian shareholders, who were sent out to the island. With these the Lesbians agreed to pay a rent of two minae a year for each allotment, and cultivated the land themselves. The Athenians also took possession of the towns on the continent belonging to the Mitylenians, which thus became for the future subject to Athens. Such were the events that took place at Lesbos.
+        </p>
+        <p class="caption"><span class="label"></span><em>Mytilenean Debate</em>, recorded text and events by Thucydides, 427BCE</p>
+    </div>
+    <!--Maus-->
+    <div class="image">
+        <img src="../src/Maus, Art Spiegelman.jpg"/>
+        <p class="caption"><span class="label"></span>
+            Art Spiegelman, excerpt from<em>Maus</em>, a comic book describing the tale of a Holocaust survivor.</p>
+    </div>
+    <!--Apollo and Daphene-->
+    <div class="image">
+        <img src="../src/Apollo and Daphne, Bernini.jpg"/>
+        <p class="caption"><span class="label"></span>
+            Sculpture by Bernini, <em>Apollo and Daphene</em>.</p>
+    </div>
+    <h1 id="conversations" class="title">Conversations</h1>
+    <hr>
+    <!--Conversations-->
+    <div id="conversationsContainer">
         <div id="poem">
             <p><i><span lang="la" title="Latin language text">
-                Angustam amice pauperiem pati<br>
-                robustus acri militia puer<br>
-                condiscat et Parthos ferocis<br>
-                vexet eques metuendus hasta<br>
-                vitamque sub divo et trepidis agat<br>
-                in rebus. Illum ex moenibus hosticis<br>
-                matrona bellantis tyranni<br>
-                prospiciens et adulta virgo<br>
-                suspiret, eheu, ne rudis agminum<br>
-                sponsus lacessat regius asperum<br>
-                tactu leonem, quem cruenta<br>
-                per medias rapit ira caedes.<br>
-                Dulce et decorum est pro patria mori:<br>
-                mors et fugacem persequitur virum<br>
-                nec parcit inbellis iuventae<br>
-                poplitibus timidove tergo.</span></i></p>
+            Angustam amice pauperiem pati<br>
+            robustus acri militia puer<br>
+            condiscat et Parthos ferocis<br>
+            vexet eques metuendus hasta<br>
+            vitamque sub divo et trepidis agat<br>
+            in rebus. Illum ex moenibus hosticis<br>
+            matrona bellantis tyranni<br>
+            prospiciens et adulta virgo<br>
+            suspiret, eheu, ne rudis agminum<br>
+            sponsus lacessat regius asperum<br>
+            tactu leonem, quem cruenta<br>
+            per medias rapit ira caedes.<br>
+            Dulce et decorum est pro patria mori:<br>
+            mors et fugacem persequitur virum<br>
+            nec parcit inbellis iuventae<br>
+            poplitibus timidove tergo.</span></i></p>
             <p>To suffer hardness with good cheer,<br>
                 In sternest school of warfare bred,<br>
                 Our youth should learn; let steed and spear<br>
@@ -54,10 +251,16 @@
                 Nor spare a recreant chivalry,<br>
                 A back that cowers, or loins that quake.</p>
         </div>
-        <div id="image">
+        <div class="image">
             <img src="../src/Falling Soldier, Capa.jpg"/>
+            <p class="caption"><span class="label"></span><em>Falling Soldier</em>, photograph by Robert Capa, depicting the death of a Republican, specifically an Iberian Federation of Libertarian Youth soldier, during the Spanish Civil War,1936.</p>
         </div>
     </div>
 </div>
 </body>
 </html>
+
+<!--<div class="image">-->
+    <!--<img src="../src/Normandy Invasion, US Coast Guard.gif"/>-->
+    <!--<p class="caption"><span class="label"></span><em>Normandy Invasion</em>, photograph by US Coast Guard, 1944</p>-->
+<!--</div>-->
