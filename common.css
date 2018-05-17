@@ -1,15 +1,15 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body{
+body {
     overflow-x: hidden;
 }
 
 .markdown {
     width: 90%;
     margin: auto;
+}
+
+p, h1, h2, h3, h4, h5, h6, div, span, a, body, html {
+    margin: 0;
+    padding: 0;
 }
 
 .illustration {
@@ -27,6 +27,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 #directions p {
@@ -86,6 +87,14 @@ body{
     text-decoration: pink overline;
     color: pink;
 }
-#titleImage{
+
+#titleImage {
     pointer-events: none;
+}
+
+#title{
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }

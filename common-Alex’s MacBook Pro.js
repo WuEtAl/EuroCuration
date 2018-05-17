@@ -59,6 +59,7 @@ function imgSetUrlSynth(nodeName, number) {
 //Handling image switching
 var allForwardOverlay = document.getElementsByClassName("backwardOverlay");
 var allBackwardOverlay = document.getElementsByClassName("forwardOverlay");
+var allCaptionOverlay = document.getElementsByClassName("captionOverlay");
 
 function imageSwitch(element, direction) {
     var node = element.parentElement;
@@ -80,9 +81,9 @@ function addCaption(node, number) {
     var caption = $(node).find('.captionOverlay')[0];
     caption.style.height = "30px";
     caption.style.width =
-        $(caption.parentNode).find('img').css('width');
+        $(caption.parentNode).find('img')[0].width;
     $(caption).find('.num')[0].innerHTML =
-        "<em>" + node.dataset.caption + ". "  + "</em> "+ number;
+        "<em>" + node.dataset.caption + ". " + number + "</em>. ";
 }
 
 for (var i = 0; i < allForwardOverlay.length; i++) {
@@ -98,43 +99,4 @@ for (var i = 0; i < allBackwardOverlay.length; i++) {
         var targetElement = event.target || event.srcElement;
         imageSwitch(targetElement, 1);
     })
-}
-
-function enlarge(event){
-    var targetImage=event.target || event.srcElement;
-    changeImageSize(targetImage, 1);
-    targetImage.style.cursor="zoom-out";
-    targetImage.removeEventListener("click", function (event) {
-        enlarge(event)
-    });
-    targetImage.addEventListener("click", function (event) {
-        shrink(event)
-    });
-}
-function shrink(event){
-    var targetImage=event.target || event.srcElement;
-    changeImageSize(targetImage, -1);
-    targetImage.style.cursor="zoom-in";
-    targetImage.removeEventListener("click", function (event) {
-        shrink(event)
-    });
-    targetImage.removeEventListener("click", function (event) {
-        enlarge(event)
-    });
-}
-function changeImageSize(imgEl, dir){
-    if(dir=-1){
-        imgEl.style.maxHeight="100vh";
-        imgEl.style.width="auto";
-    }else if(dir=1){
-        imgEl.style.maxHeight="none";
-        imgEl.style.width="100%";
-    }else {
-        console.error("imageSizeDir");
-    }
-}
-for (var i = 0; i < allImg.length; i++){
-    allImg[i].addEventListener("click", function (event) {
-        enlarge(event)
-    });
 }

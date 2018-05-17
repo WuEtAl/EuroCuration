@@ -1,7 +1,3 @@
-#conversationsContainer {
-    display: flex;
-    flex-direction: row;
-}
 
 #poem {
     display: flex;
@@ -15,11 +11,6 @@
 /*text-align: center;*/
 /*z-index: 1;*/
 /*}*/
-
-* {
-    padding: 0;
-    margin: 0;
-}
 
 #titleImage {
     width: 100%;
@@ -44,53 +35,123 @@
     top: 0;
     overflow: hidden;
     height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 
-#contentContainer{
+#contentContainer {
     font-family: Gotham, sans-serif;
     font-size: 12pt;
 }
-#contentContainer p{
+
+#contentContainer p {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-indent: 2em;
 }
-.caption{
+
+.caption {
     text-indent: 0;
+    padding: 10px;
+    font-family: "Times New Roman", serif;
+    font-size: 15pt;
+    margin-bottom: 15px;
 }
-#contentContainer img{
-    width: 100%;
+
+#contentContainer img {
+    display: block;
+    max-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: zoom-in;
 }
-.title{
+
+.title {
     text-decoration: underline;
     font-family: Sentinel, serif;
     margin-left: 10%;
 }
-.caption{
-    font-family: "Times New Roman", serif;
+
+.video iframe {
+    display: block;
+    margin: 0 auto;
+    height: 80vh;
+    width: 80vw;
 }
 
-.imageSet{
+.image, .text, .video {
+    border-left: 5px pink;
+    padding: 10px;
+}
+
+.imageSet {
     position: relative;
     width: 100%;
     height: 100vh;
 }
 
-.imageSet .forwardOverlay{
+.imageSet .backwardOverlay {
     position: absolute;
     height: 100vh;
-    width: 50%;
-    left:0;
-    right: 50%;
     cursor: w-resize;
+    z-index: 50;
+    left: 0;
+    right: 60%;
+    top: 0;
 }
 
-.imageSet .backwardOverlay{
+.imageSet .forwardOverlay {
     position: absolute;
     height: 100vh;
-    width: 50%;
-    left:50%;
-    right: 100%;
+    z-index: 50;
+    right: 0;
+    left: 60%;
+    top: 0;
     cursor: e-resize;
+}
+
+.captionOverlay {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: block;
+    height: 30px;
+    background-color: pink;
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-family: Sentinel, serif;
+    opacity: 0.5;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#conversationsContainer {
+    display: flex;
+    margin: 0 0;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#conversationsContainer .image {
+    width: 48%;
+}
+
+#conversationsContainer .text {
+    width: 52%;
+}
+
+#convPoem{
+    display: flex;
+    flex-direction: row;
+}
+#convPoem p{
+    padding:0;
+    margin:0;
+    font-size: 11pt;
 }
