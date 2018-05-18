@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cf37b04-ea55-4144-b99f-530b3f5a70d6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/miscellany/miscellany.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bomb Bay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/St. Bartholomew's Day Massacre, François Dubois, 1572.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citation.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/citation.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amongTheContributors/amongTheContributors.html" beforeDir="false" afterPath="$PROJECT_DIR$/amongTheContributors/amongTheContributors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easterEgg/easterEgg.html" beforeDir="false" afterPath="$PROJECT_DIR$/easterEgg/easterEgg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/furtherRemarks.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/furtherRemarks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/preamble.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/preamble.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/miscellany/miscellany.html" beforeDir="false" afterPath="$PROJECT_DIR$/miscellany/miscellany.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preamble/preamble.html" beforeDir="false" afterPath="$PROJECT_DIR$/preamble/preamble.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voicesInTime/voicesInTime.css" beforeDir="false" afterPath="$PROJECT_DIR$/voicesInTime/voicesInTime.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/voicesInTime/voicesInTime.html" beforeDir="false" afterPath="$PROJECT_DIR$/voicesInTime/voicesInTime.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/voicesInTime/voicesInTime.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -59,6 +56,7 @@
                 <element signature="n#div#14;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#15;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#16;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#17;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#18;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#18;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#18;n#div#3;n#body#0;n#html#0;n#!!top" />
@@ -70,15 +68,12 @@
       <file leaf-file-name="miscellany.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miscellany/miscellany.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+            <state relative-caret-position="551">
+              <caret line="109" column="221" lean-forward="true" selection-start-line="109" selection-start-column="221" selection-end-line="109" selection-end-column="221" />
               <folding>
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -87,17 +82,17 @@
       <file leaf-file-name="furtherRemarks.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/furtherRemarks/furtherRemarks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+            <state relative-caret-position="-4">
+              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="easterEgg.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="easterEgg.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/easterEgg/easterEgg.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="553">
-              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -111,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="amongTheContributors.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="amongTheContributors.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/amongTheContributors/amongTheContributors.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="398">
@@ -160,6 +155,7 @@
       <find>console.log</find>
       <find>caption</find>
       <find>#contentContainer</find>
+      <find>mause</find>
     </findStrings>
     <replaceStrings>
       <replace>\\n</replace>
@@ -188,9 +184,9 @@
         <option value="$PROJECT_DIR$/common.js" />
         <option value="$PROJECT_DIR$/voicesInTime/voicesInTime.css" />
         <option value="$PROJECT_DIR$/miscellany/miscellany.css" />
-        <option value="$PROJECT_DIR$/voicesInTime/voicesInTime.html" />
-        <option value="$PROJECT_DIR$/miscellany/miscellany.html" />
         <option value="$PROJECT_DIR$/easterEgg/easterEgg.html" />
+        <option value="$PROJECT_DIR$/miscellany/miscellany.html" />
+        <option value="$PROJECT_DIR$/voicesInTime/voicesInTime.html" />
       </list>
     </option>
   </component>
@@ -292,16 +288,15 @@
       <workItem from="1526406628613" duration="1411000" />
       <workItem from="1526410508643" duration="8226000" />
       <workItem from="1526477664473" duration="4923000" />
-      <workItem from="1526497392012" duration="35758000" />
+      <workItem from="1526497392012" duration="37872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83800000" />
+    <option name="totallyTimeSpent" value="85914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15859374" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -413,6 +408,7 @@
             <element signature="n#div#14;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#15;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#16;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#17;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#18;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#18;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#18;n#div#3;n#body#0;n#html#0;n#!!top" />
@@ -705,26 +701,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/amongTheContributors/amongTheContributors.html">
+    <entry file="file://$PROJECT_DIR$/furtherRemarks/furtherRemarks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="-4">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/voicesInTime/voicesInTime.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -753,6 +740,7 @@
             <element signature="n#div#14;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#15;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#16;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#17;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#18;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#18;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#18;n#div#3;n#body#0;n#html#0;n#!!top" />
@@ -762,30 +750,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/miscellany/miscellany.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        <state relative-caret-position="551">
+          <caret line="109" column="221" lean-forward="true" selection-start-line="109" selection-start-column="221" selection-end-line="109" selection-end-column="221" />
           <folding>
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/furtherRemarks/furtherRemarks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/easterEgg/easterEgg.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amongTheContributors/amongTheContributors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
