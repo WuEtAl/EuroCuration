@@ -3,8 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <title>Miscellany</title>
+    <link rel="icon" href="../src/icon.png"/>
+    <script src="../showdown.js"></script>
+    <script src="../common.js" defer></script>
+    <script src="../jquery-3.3.1.js"></script>
+    <script src="../remarkable.js"></script>
+    <link rel="stylesheet" href="../common.css">
+    <style>
+        *{
+            padding:0;
+            margin: 0;
+        }
+        #titleImage {
+            width: 100%;
+            position: absolute;
+            top:0;
+            z-index: 0;
+        }
+        #title {
+            position: absolute;
+            right: 10%;
+            z-index: 3;
+            bottom: 0;
+            font-size: 22vh;
+            color: white;
+            font-family: Clarendon;
+        }
+        #titleFrame {
+            width:100%;
+            position: relative;
+            top: 0;
+            overflow: hidden;
+            height: 100vh;
+        }
+    </style>
+    <link rel="stylesheet" href="miscellany.css">
 </head>
 <body>
-
+<div id="sections">
+    <p><a href="../index.html">⌂</a></p>
+    <p><a href="../preamble/preamble.html">§Preamble:</a></p>
+    <p><a href="../amongTheContributors/amongTheContributors.html">Among the Contributors;</a></p>
+    <p><a href="../voicesInTime/voicesInTime.html">Voices In Time;</a></p>
+    <p><a href="../miscellany/miscellany.html">Miscellany.</a></p>
+    <p><a href="../furtherRemarks/furtherRemarks.html">Further Remarks␄</a></p>
+</div>
+<div id="directions">
+    <p><a href="../voicesInTime/voicesInTime.html"
+          id="back">↑Back?</a></p>
+    <p><a href="../furtherRemarks/furtherRemarks.html" id="next">→Or Next:</a></p>
+</div>
+<div id="titleFrame">
+    <img id="titleImage"
+         src="../src/Bomb%20Bay.jpg"/>
+    <h1 id="title">Misc.</h1>
+</div>
+<div id="contentContainer">
+    <h1 class="title">Simply Too Many.</h1>
+    <hr>
+    <div class="image">
+        <img src="../src/Jewish Boy Surrenders in Warsaw.jpg"/>
+        <p class="caption"><span class="label"></span>Jewish Boy surrenders in Warsaw.</p>
+    </div>
+    <div class="image">
+        <img src="../src/Grief, Baltermants, 1942.jpg"/>
+        <p class="caption"><span class="label"></span>Famine struck. <em>Grief</em>, photograph by Baltermants.</p>
+    </div>
+    <h1 class="title">Simply Too Violent.</h1>
+    <div class="image">
+        <img src="../src/Saigon Execution, Adams, 1968.jpg"/>
+        <p class="caption"><span class="label"></span><em>Saigon Execution</em>, depicting a South Vietnamese executing a Viet-Cong in 1968.</p>
+    </div>
+    <div class="image">
+        <img src="../src/Bosnia, Haviv, 1992.jpg"/>
+        <p class="caption"><span class="label"></span>Soldiers kicking civilians.</p>
+    </div>
+    <h1 class="title">Until No One is Left.</h1>
+    <div class="image">
+        <img src="../src/Invasion of Prague, Koudelka, 1968.jpg"/>
+        <p class="caption"><span class="label"></span><em>Invasion of Prague</em>, a photograph by Koudelka, depicting USSR's invasion into Hungary in 1968.</p>
+    </div>
+    <h1 class="title">Hopeful?</h1>
+    <hr>
+    <div class="conversationsContainer" style="margin-bottom: 10px;">
+        <div class="image">
+            <img src="../src/Bloody Saturday, HS Wong, 1937.jpg"/>
+            <p class="caption"><span class="label"></span>H.S. Wong's Picture, <em>Bloody Saturday</em>, depicted Japan's Bombing of Shanghai in 1937.</p>
+        </div>
+        <div class="image">
+            <img src="../src/Explosion over Nagasaki.jpg"/>
+            <p class="caption"><span class="label"></span>United States dropped a atomic bomb over Nagasaki.</p>
+        </div>
+    </div>
+    <div class="conversationsContainer">
+        <div class="image">
+            <img src="../src/Raising a Flag over the Reichstag, 1945.jpg"/>
+            <p class="caption"><span class="label"></span>The Soviet Army raises its flag over Reichstag.</p>
+        </div>
+        <div class="image">
+            <img src="../src/Hitler at a Nazi Party Rally, 1934.jpg"/>
+            <p class="caption"><span class="label"></span>Hitler at a Nazi Party Rally.</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>

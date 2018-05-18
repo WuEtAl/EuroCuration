@@ -129,29 +129,15 @@
 
 }
 
-#conversationsContainer {
+.conversationsContainer {
     display: flex;
     margin: 0 0;
     flex-direction: row;
     justify-content: space-between;
-
 }
-
-#conversationsContainer .image {
-    width: 48%;
+.conversationsContainer .image{
+    width: 50%;
 }
-
-#conversationsContainer .text {
-    width: 52%;
-}
-
-#convPoem{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-#convPoem p{
-    padding:0;
-    margin:0;
-    font-size: 11pt;
+.conversationsContainer .image img{
+    width: 100%;
 }
