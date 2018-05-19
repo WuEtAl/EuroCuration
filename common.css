@@ -1,16 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab");
+
 body {
     overflow-x: hidden;
 }
 
 .markdown {
-    width: 90%;
+    width: 70%;
     margin: auto;
+    font-size: 13pt;
 }
 
 p, h1, h2, h3, h4, h5, h6, div, span, a, body, html {
     margin: 0;
     padding: 0;
 }
+
 
 .illustration {
     float: right;
@@ -97,4 +101,49 @@ p, h1, h2, h3, h4, h5, h6, div, span, a, body, html {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+
+@font-face{
+    font-family: Clarendon;
+    src: url("fonts/Clarendon Regular.ttf");
+    font-weight: normal;
+}
+@font-face{
+    font-family: Clarendon;
+    src: url("fonts/Clarendon Black BT.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: Sentinel;
+    src: url("fonts/sentinel-book.otf");
+    font-style: normal;
+}
+@font-face {
+    font-family: Sentinel;
+    src: url("fonts/sentinel-bookItalic.otf");
+    font-style: italic;
+}
+@font-face{
+    font-family: Gotham;
+    src: url("fonts/Gotham-Book.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Gotham;
+    src: url("fonts/Gotham-Bold.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: Gotham;
+    src: url("fonts/Gotham-BookItalic.otf");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: Gotham;
+    src: url("fonts/Gotham-BoldItalic.otf");
+    font-weight: bold;
+    font-style: italic;
 }

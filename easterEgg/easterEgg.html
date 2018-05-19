@@ -10,22 +10,52 @@
     <script src="../remarkable.js"></script>
     <link rel="stylesheet" href="../common.css">
     <style>
+        *{
+            padding:0;
+            margin: 0;
+        }
+        #titleImage {
+            width: 100%;
+            position: absolute;
+            top:0;
+            z-index: 0;
+        }
+        #title {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            z-index: 3;
+            bottom: 0;
+            font-size: 15vh;
+            color: white;
+            font-family: Clarendon;
+        }
+        #titleFrame {
+            width:100%;
+            position: relative;
+            top: 0;
+            overflow: hidden;
+            height: 100vh;
+        }
         /**/
         /*Shooter Animation*/
         #shooting{
-            display: flex;
-            flex-direction: row;
+            width: 100%;
+            background-color: black;
         }
         #shootingFrame{
             overflow: hidden;
+            display: block;
+            margin: 0 auto;
             position: relative;
             top:0;
-            min-width: 640px;
-            min-height: 318px;
+            width: 640px;
+            height: 318px;
         }
         #shootingImage{
             position: absolute;
         }
+
     </style>
 </head>
 <body>
@@ -37,18 +67,23 @@
     <p><a href="../miscellany/miscellany.html">Miscellany.</a></p>
     <p><a href="../furtherRemarks/furtherRemarks.html">Further Remarks␄</a></p>
 </div>
-<h1>Yay! You found it!</h1>
+<div id="titleFrame">
+    <img id="titleImage" src="../src/Last Supper.jpg"/>
+    <h1 id="title">🥚</h1>
+</div>
 <div id="shooting">
 <div id="shootingFrame">
     <img src="../src/title.png" id="shootingImage"/>
 </div>
 </div>
 <script>
-    var frame=document.getElementById("shootingFrame");
-    var img=document.getElementById("shootingImage");
-    function update(element){
-
-    }
+    var image=document.getElementById("shootingImage");
+    document.body.addEventListener("mousemove", function (evt) {
+        var event=window.event||evt;
+        var percent=event.clientX/window.innerWidth;
+        var imageNum=Math.floor(152*percent);
+        image.style.left=(imageNum*(-640))+"px";
+    })
 </script>
 
 </body>
