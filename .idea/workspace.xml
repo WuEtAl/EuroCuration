@@ -70,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/music/music.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            <state relative-caret-position="366">
+              <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="67" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#audio#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -257,12 +257,12 @@
       <workItem from="1526648723233" duration="247000" />
       <workItem from="1527742452013" duration="9000" />
       <workItem from="1548473043436" duration="2019000" />
-      <workItem from="1548808674507" duration="2986000" />
+      <workItem from="1548808674507" duration="3096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95922000" />
+    <option name="totallyTimeSpent" value="96032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="715" extended-state="0" />
@@ -487,8 +487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/music/music.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        <state relative-caret-position="366">
+          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="67" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#audio#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
