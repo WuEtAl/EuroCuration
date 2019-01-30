@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cf37b04-ea55-4144-b99f-530b3f5a70d6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/rnnDiagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/md/music.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/music.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/music/music.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +29,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="90">
-                <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+                <caret line="6" column="225" selection-start-line="6" selection-start-column="225" selection-end-line="6" selection-end-column="225" />
               </first_editor>
               <second_editor />
             </state>
@@ -193,11 +189,6 @@
               <item name="EuroCuration" type="462c0819:PsiDirectoryNode" />
               <item name="preamble" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="EuroCuration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EuroCuration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -266,12 +257,12 @@
       <workItem from="1526648723233" duration="247000" />
       <workItem from="1527742452013" duration="9000" />
       <workItem from="1548473043436" duration="2019000" />
-      <workItem from="1548808674507" duration="2765000" />
+      <workItem from="1548808674507" duration="2931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95701000" />
+    <option name="totallyTimeSpent" value="95867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="715" extended-state="0" />
@@ -499,7 +490,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="90">
-            <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            <caret line="6" column="225" selection-start-line="6" selection-start-column="225" selection-end-line="6" selection-end-column="225" />
           </first_editor>
           <second_editor />
         </state>

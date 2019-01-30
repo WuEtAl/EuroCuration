@@ -2,6 +2,6 @@ The music, which can be accessed [here](../src/music.mp3), was generated using a
 
 Here is a diagram I found outlining the basic process of music generation through RNN.
 
-![RNN Diagram](../src/rnnDiagram.png)[^1]
+![RNN Diagram](../src/rnnDiagram.png)
 
-[^1]: From Roberts, A., Engel, J., Raffel, C., Hawthorne, C. & Eck, D.. (2018). A Hierarchical Latent Vector Model for Learning Long-Term Structure in Music. Proceedings of the 35th International Conference on Machine Learning, in PMLR 80:4364-4373
+Sources: Roberts, A., Engel, J., Raffel, C., Hawthorne, C. & Eck, D.. (2018). A Hierarchical Latent Vector Model for Learning Long-Term Structure in Music. Proceedings of the 35th International Conference on Machine Learning.
